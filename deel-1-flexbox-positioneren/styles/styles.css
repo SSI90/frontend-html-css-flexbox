@@ -1,1 +1,58 @@
 /*Schrijf hier jouw CSS*/
+
+/*opdracht 1 */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 2*/
+.text-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-description{
+    flex-basis: 500px;
+}
+
+/*opdracht 3*/
+.positions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.positions .item-left {
+    align-self: flex-start;
+}
+
+.positions .item-center {
+    align-self: center;
+}
+
+.positions .item-right {
+    align-self: flex-end;
+}
+
+/*opdracht 4*/
+.word-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/*opdracht 5*/
+.column-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column-list .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
